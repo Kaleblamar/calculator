@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  min-height: 100%;
+}
+body {
+  background: linear-gradient(30deg, red, blue);
+  background-size: cover;
+}
+.container {
+  width: 280px;
+  /* height: ; */
+  border: 3px solid black;
+  background-color: rgba(13, 60, 155, 0.5);
+  border-radius: 20px;
+  filter: drop-shadow(4rem 4rem 4rem rgb(53, 26, 26));
+  margin: 6rem auto;
+  transition: 0.4s ease-in-out;
+}
+.container:hover {
+  transform: scale(1.2);
+  transition: 0.4s ease-in-out;
+}
+.display {
+  text-align: center;
+}
+.displayScreen {
+  width: 100%;
+  font-size: 40px;
+  height: 100px;
+  text-align: right;
+  color: white;
+  background-color: transparent;
+  border-style: hidden;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  filter: drop-shadow(1px 1px 1px rgb(122, 120, 120));
+  margin: 0 5px;
+}
+.row3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  filter: drop-shadow(1px 1px 1px rgb(122, 120, 120));
+  margin: 0 5px;
+  margin-bottom: 10px;
+}
+input {
+  width: 5rem;
+  height: 3rem;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: larger;
+  background-color: rgb(27, 27, 27);
+  color: whitesmoke;
+}
+.equal {
+  width: 11rem;
+  background-color: rgb(212, 91, 10);
+}
+.sideColumn {
+  background-color: rgb(212, 91, 10);
+}
+input:active {
+  transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  transition: 0.1s ease-in;
+}
+input:hover {
+  background-color: rgb(255, 0, 0, 0.8);
+  color: rgb(0, 0, 255);
+}
+.displayScreen:hover {
+  background-color: transparent;
+}
+.allClear,
+.delete,
+.percentage {
+  background-color: grey;
+}
