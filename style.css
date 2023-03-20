@@ -7,7 +7,16 @@ html {
   min-height: 100%;
 }
 body {
-  background: linear-gradient(30deg, red, blue);
+  background-color: hsl(224, 32%, 20%);
+  background-image: conic-gradient(
+    from 0deg at 50% 50%,
+    blue,
+    purple,
+    purple,
+    blue
+  );
+  background-blend-mode: hard-light;
+  /* background: linear-gradient(30deg, red, blue); */
   background-size: cover;
 }
 .container {
